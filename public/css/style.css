@@ -1,0 +1,170 @@
+@media (min-width: 768px) {
+    img {
+        text-align: center;
+    }
+    h4, p{
+        text-align: left;
+    }
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #575757;
+}
+h1{
+	color: #000;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+h4{
+    font-weight: bold;
+}
+h5{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+a{ 
+	color: #575757; 
+}
+strong{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-size: 3vw;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    vertical-align: middle;
+    width: 100%;
+    font-weight: bold;
+}
+.header{
+    background: #d4e3fc;
+}
+.footer{
+    color: #d4e3fc;
+    background: #020f23;
+    padding: 30px 0;
+}
+.logo2{
+    color: #447cd6;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.nolimitwidth{
+    width: 100% !important;
+}
+.image{
+    position: relative;
+    width: 100%;
+}
+.body-wrapper{
+    height: 300px;
+}
+.dropdown {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+}
+.dropdown a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    right: 0;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 3px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav.main-nav{
+    height: 50px;
+    margin-left: 80px;
+}
+nav.main-nav ul{
+    font-weight: bold;
+}
+nav.main-nav ul li{
+    display: inline-block;
+    padding: 23px;
+}
+nav.main-nav ul li:hover {
+    background:#afceff;
+}
+nav.main-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+}
+nav.sec-nav{
+    height: 500px;
+    padding-top: 15px;
+    background: #ddeaff;
+}
+nav.sec-nav ul{
+    font-weight: bold;
+}
+nav.sec-nav ul li{
+    line-height: 50px;
+    display: block;
+}
+nav.sec-nav ul li:hover {
+    text-decoration: underline;
+}
+nav.sec-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+}
+
+nav.mobile-nav{
+}
+nav.mobile-nav ul{
+    font-weight: bold;
+}
+nav.mobile-nav ul li{
+    line-height: 50px;
+    display: block;
+}
+nav.mobile-nav ul li:hover {
+    text-decoration: underline;
+}
+nav.mobile-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+}
+nav.footer-nav{
+}
+nav.footer-nav ul{
+    font-weight: bold;
+}
+nav.footer-nav ul li{
+    line-height: 30px;
+    display: block;
+}
+nav.footer-nav ul li:hover {
+    text-decoration: underline;
+}
+nav.footer-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d4e3fc;
+    font-size: 10px;
+}
